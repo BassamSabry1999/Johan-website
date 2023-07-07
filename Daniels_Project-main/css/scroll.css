@@ -1,0 +1,21 @@
+
+.scrolled {
+    background: #fff;
+    padding:0 0 10px ;
+    box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+}
+.scrolled a {
+    color: #1c1c1c !important;
+}
+.scrolled li a {
+    font-weight: 400;
+}
+
+.scrolled .nav-link::before {
+    background: #1c1c1c !important;
+
+}
+
+.scrolled .icon-bar {
+    background: #1c1c1c !important;
+}

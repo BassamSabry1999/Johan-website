@@ -1,0 +1,41 @@
+@media screen and (max-width: 992px) {
+
+    /* Navbar */
+
+    .navbar .nav-item {
+        font-size: 13px;
+        margin: 25px 15px 0;
+    }
+
+    /* About */
+
+    .hero-img {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Navbar */
+
+    .navbar .navbar-collapse {
+        text-align: center;
+        border: none;
+        border-top: 1px solid rgba(12, 12, 12, 0.04);
+        background: #fff;
+        margin-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    .navbar .nav-link {
+        color: black !important;
+    }
+
+    /* Home */
+
+    .home-text {
+        font-size: 30px;
+    }
+
+
+}

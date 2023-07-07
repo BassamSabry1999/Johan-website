@@ -1,0 +1,87 @@
+.motion-container {
+    position: relative;
+    width: 300px;
+    text-align: start;
+    overflow: hidden;
+    animation: container-width 6s infinite ease;
+    border-right: 2px solid #fff;
+}
+
+.motion-text1 {
+    position: absolute;
+    animation: Text-motion 6s infinite;
+    visibility: hidden;
+
+}
+.motion-text2 {
+    position: absolute;
+    animation: Text-motion 6s 2s infinite;
+    visibility: hidden;
+
+}
+.motion-text3 {
+    position: absolute;
+    animation: Text-motion 6s 4s infinite;
+    visibility: hidden;
+
+}
+
+
+@keyframes container-width {
+
+    0%,
+    33.33%,
+    66.66%,
+    100% {
+        width: 0;
+    }
+
+    11.11%,
+    22.22% {
+        width: 300px;
+    }
+
+    44.44%,
+    55.55%,
+    77.77%,
+    88.88% {
+        width: 240px;
+    }
+
+
+}
+
+@keyframes Text-motion {
+    0%,33.33%{
+        visibility: visible;
+    }
+    33.34%,100% {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    @keyframes container-width {
+
+        0%,
+        33.33%,
+        66.66%,
+        100% {
+            width: 0;
+        }
+    
+        11.11%,
+        22.22% {
+            width: 210px;
+        }
+    
+        44.44%,
+        55.55%,
+        77.77%,
+        88.88% {
+            width: 170px;
+        }
+    
+    
+    }
+}
